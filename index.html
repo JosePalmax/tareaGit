@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Tema 9</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <h1>Fotos de Pokemon</h1>
+    <div class="color">
+        Selecciona un color: <input type="color" id="colorFondo"><br>
+    </div>
+    <div style="display: flex;justify-content: center;">
+        <input class="botones" type="submit" id="cambiarColor" value="Cambiar color de fondo">
+        <input class="botones" type="submit" id="añadir" value="Añadir mas elementos">
+    </div>
+    
+    <h1>Pokemons</h1>
+    <div id="fotos">
+        <div class="foto">
+            <img src="pikachu.png" alt="Imagen">
+            <button>Cambiar</button>
+            <button>Borrar</button>
+        </div>
+        <div class="foto">
+            <img src="gengar.png" alt="Imagen">
+            <button>Cambiar</button>
+            <button>Borrar</button>
+        </div>
+        <div class="foto">
+            <img src="squirtle.png" alt="Imagen">
+            <button>Cambiar</button>
+            <button>Borrar</button>
+        </div>
+    </div>
+    <div style="background-color: tono;"></div>
+    <script src="funciones.js"></script>
+</body>
+
+</html>

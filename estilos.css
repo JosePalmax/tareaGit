@@ -1,0 +1,60 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+#fotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.foto button {
+    border-radius: 0;
+    border: .1px solid white;
+    width: 100%;
+    font-size: 1.2vw;
+    height: 15%;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.foto img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones {
+    width: 15vw;
+    margin: 10px;
+    height: 3vw;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(8, 137, 8);
+    color: white;
+    cursor: pointer;
+}
